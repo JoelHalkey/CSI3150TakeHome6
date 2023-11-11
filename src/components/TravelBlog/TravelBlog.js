@@ -1,6 +1,8 @@
 import React from "react";
 import "./travelblog.css";
 
+// Using props to be able to input data and pictures into 
+// card/travelblog div
 const TravelBlog = (props) => {
   return (
     <div className="travelblog-wrapper">
@@ -10,21 +12,21 @@ const TravelBlog = (props) => {
           <img
             className="place-image"
             src={props.placeImg1}
-            alt="Place image 1"
+            alt="Place 1"
           />
         </div>
         <div className="place-image-container">
           <img
             className="place-image"
             src={props.placeImg2}
-            alt="Place image 2"
+            alt="Place 2"
           />
         </div>
         <div className="place-image-container">
           <img
             className="place-image"
             src={props.placeImg3}
-            alt="Place image 3"
+            alt="Place 3"
           />
         </div>
       </div>

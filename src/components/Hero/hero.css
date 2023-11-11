@@ -2,13 +2,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    position: relative;
+}
+
+.hero-background-image{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
 }
 
 .hero-header{
+    font-size: xxx-large;
+    color: white;
+    position: absolute;
+    top: -10px;
+}
 
-}
 .hero-description{
-    display: flex;
-    align-items: center;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 75px;
     max-width: 80%;
+    transition: 0.5s ease;
 }
+
+/* Media Queries for screen size */
+@media (min-width:750px){
+    .hero-description{
+        font-size:xx-large;
+    }
+}
+
+@media (max-width:550px){
+    .hero-description{
+        font-size:large;
+    }
+}
+
+@media (max-width:480px){
+    .hero-description{
+        font-size:smaller;
+    }
+}
+
