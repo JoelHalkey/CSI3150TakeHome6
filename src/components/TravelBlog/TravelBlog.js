@@ -4,7 +4,7 @@ import "./travelblog.css";
 const TravelBlog = (props) => {
   return (
     <div className="travelblog-wrapper">
-      <div className="top-row">{props.placeHeading}</div>
+      <h3 className="top-row">{props.placeHeading}</h3>
       <div className="middle-row">
         <div className="place-image-container">
           <img

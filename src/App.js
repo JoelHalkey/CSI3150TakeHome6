@@ -4,14 +4,17 @@ import TravelBlog from "./components/TravelBlog/TravelBlog";
 import TravelData from "./TravelData";
 
 function App() {
-  const travelBlogCards = TravelBlog.map((item) => {
-    <TravelBlog
-      key={item.id}
-      placeHeading={item.placeHeading}
-      placeImg1={item.placeImg1}
-    ></TravelBlog>;
+  const travelBlogCards = TravelData.map((item) => {
+    return(<TravelBlog
+      key={item.id} placeHeading={item.placeHeading} placeImg1={item.placeImg1} placeImg2={item.placeImg2} placeImg3={item.placeImg3} placeDescription={item.placeDescription}
+    />);
   });
-  return <div className="App"></div>;
+  return <div className="App">
+    <Hero/>
+    <section className='travelblog-card-container'>
+        {travelBlogCards}
+    </section> 
+  </div>;
 }
 
 export default App;

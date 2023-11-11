@@ -1,0 +1,14 @@
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-header{
+
+}
+.hero-description{
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+}
