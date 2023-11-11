@@ -3,6 +3,17 @@
 // import Place1Image1 from "./Assets/filename.extension" and similarly for the rest.
 // You can use the images that I have provided or use your own
 // I have provided a lorem ipsum content for description. Just use that. No need to spend time figuring out a description.
+import Place1Image1 from "./assets/LondonImage1.jpg";
+import Place1Image2 from "./assets/LondonImage2.jpg";
+import Place1Image3 from "./assets/LondonImage3.jpg";
+
+import Place2Image1 from "./assets/SF1Image1.jpg";
+import Place2Image2 from "./assets/SF2Image2.jpg";
+import Place2Image3 from "./assets/SF3Image3.jpg";
+
+import Place3Image1 from "./assets/TokyoImage1.jpg";
+import Place3Image2 from "./assets/TokyoImage2.jpg";
+import Place3Image3 from "./assets/TokyoImage3.jpg";
 
 const TravelData = [
   {
